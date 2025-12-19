@@ -5,7 +5,7 @@ import NewNews from "./components/NewNews";
 
 function App() {
   return (
-    <div className="px-20  mx-auto max-w-[1440px]">
+    <div className="md:px-20 px-4 py-4  mx-auto max-w-[1440px]">
       <Header />
       <main>
         <div className="md:flex gap-6 items-start pt-6">

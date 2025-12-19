@@ -7,7 +7,7 @@ function HeroPage() {
       <img src={heroImgMobile} alt="Image" className="md:hidden" />
       <img src={heroImgDesktop} alt="Image" className="hidden md:block" />
       <div className="md:flex items-center gap-20 md:py-8">
-        <h1 className="text-6xl md:text-5xl pb-4 font-bold">
+        <h1 className="text-6xl md:text-5xl py-4 font-bold">
           The Bright Future of Web 3.0?
         </h1>
         <div className="space-y-3">
