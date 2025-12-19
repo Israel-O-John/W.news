@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .news-title {
+    @apply text-base font-medium text-white cursor-pointer hover:text-orange-400;
+  }
+}
