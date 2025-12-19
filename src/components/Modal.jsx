@@ -3,7 +3,7 @@ import closeMenuIcon from "../assets/images/icon-menu-close.svg";
 import menuIcon from "../assets/images/icon-menu.svg";
 
 function Modal() {
-  const [isOPen, setIsOpen] = useState(true);
+  const [isOPen, setIsOpen] = useState(false);
 
   function handleClick() {
     setIsOpen(!isOPen);
